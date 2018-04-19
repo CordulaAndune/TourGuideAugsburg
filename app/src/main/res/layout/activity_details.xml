@@ -1,4 +1,4 @@
-<!--<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -25,6 +25,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
             <ImageView
                 android:id="@+id/image"
@@ -34,6 +37,18 @@
                 android:maxHeight="500dp"
                 android:scaleType="centerInside"
                 tools:src="@drawable/augsburg_perlachtower" />
+
+                <ImageButton
+                    android:id="@+id/map_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_map_black_24dp"
+                    android:background="@drawable/button_round_background"
+                    android:layout_alignRight="@id/image"
+                    android:layout_alignBottom="@+id/image"
+                    android:layout_margin="@dimen/small_padding"/>
+
+            </RelativeLayout>
 
             <TextView
                 android:id="@+id/description"
@@ -50,17 +65,8 @@
                 android:layout_height="wrap_content"
                 android:linksClickable="true"
                 android:padding="@dimen/outer_padding"
-                tools:text="@string/empty_place_link" />-->
-
-            <fragment xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:tools="http://schemas.android.com/tools"
-                android:id="@+id/map"
-                android:name="com.google.android.gms.maps.SupportMapFragment"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                tools:context=".DetailsActivity"/>
-<!--
+                tools:text="@string/empty_place_link" />
 
         </LinearLayout>
     </ScrollView>
-</LinearLayout>-->
+</LinearLayout>

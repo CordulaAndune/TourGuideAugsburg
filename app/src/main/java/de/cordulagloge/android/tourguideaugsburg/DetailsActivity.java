@@ -10,6 +10,10 @@ import android.support.v7.widget.Toolbar;
 import android.text.Html;
 import android.text.Spanned;
 import android.text.method.LinkMovementMethod;
+import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -21,31 +25,32 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-public class DetailsActivity extends AppCompatActivity implements OnMapReadyCallback {
+public class DetailsActivity extends AppCompatActivity{
+
+    private Places currentPlace;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_details);
-        /*Toolbar detailsToolbar = findViewById(R.id.toolbar);
+        Toolbar detailsToolbar = findViewById(R.id.toolbar);
         setSupportActionBar(detailsToolbar);
         ActionBar actionBar = getSupportActionBar();
-        actionBar.setDisplayHomeAsUpEnabled(true);*/
+        actionBar.setDisplayHomeAsUpEnabled(true);
 
-        //SupportFragmentManager fragmentManager = getSupportFragmentManager();
-        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
-        mapFragment.getMapAsync(this);
-
-       /* Intent placeIntent = getIntent();
-        Places currentPlace;
-        if (placeIntent != null) {
+        Intent placeIntent = getIntent();
+        if (placeIntent != null)
+        {
             currentPlace = placeIntent.getParcelableExtra("currentPlace");
+        }
+        else if(savedInstanceState != null){
+            currentPlace = savedInstanceState.getParcelable("currentPlace");
         }
         else {
             currentPlace = new Places(R.string.empty_place, R.string.inner_city,
                     R.string.empty_place_description, R.drawable.augsburg_default, R.string.empty_place_link);
         }
-
+        Log.i("onCreate",getString(currentPlace.getName()));
         actionBar.setTitle(currentPlace.getName());
         TextView link = findViewById(R.id.link);
         Spanned linkText = Html.fromHtml(getString(currentPlace.getLink()));
@@ -56,15 +61,22 @@ public class DetailsActivity extends AppCompatActivity implements OnMapReadyCall
         description.setText(getString(currentPlace.getDescription()));
 
         ImageView image = findViewById(R.id.image);
-        image.setImageResource(currentPlace.getImageResourceId());*/
+        image.setImageResource(currentPlace.getImageResourceId());
+
+        ImageButton mapButton = findViewById(R.id.map_button);
+        mapButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent mapIntent = new Intent(DetailsActivity.this, MapActivity.class);
+                mapIntent.putExtra("currentPlace",currentPlace);
+                startActivity(mapIntent);
+            }
+        });
     }
 
     @Override
-    public void onMapReady(GoogleMap googleMap) {
-        LatLng augsburg = new LatLng(-33.852, 151.211);
-        googleMap.addMarker(new MarkerOptions()
-                .position(augsburg)
-                .title("Augsburg"));
-        googleMap.moveCamera(CameraUpdateFactory.newLatLng(augsburg));
+    public void onSaveInstanceState(Bundle savedInstanceState){
+        super.onSaveInstanceState(savedInstanceState);
+        savedInstanceState.putParcelable("currentPlace",currentPlace);
     }
 }

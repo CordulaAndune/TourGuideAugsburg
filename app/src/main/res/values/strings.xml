@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">Tour Guide Augsburg</string>
+
+    <!-- Tab names -->
+    <string name="sights">Sehenswürdigkeiten</string>
+    <string name="activities">Freizeitakivitäten</string>
+
+    <!-- distances -->
+    <string name="inner_city">Innenstadt</string>
+    <string name="gersthofen">Gersthofen</string>
+    <string name="spickel">Spickel - Herrenbach</string>
+    <string name="scherneck">Scherneck - Rehling</string>
+    <string name="neusaess">Neusäß</string>
+
+
+    <string name="empty_place">Kein Platz ausgewählt</string>
+    <string name="empty_place_description">Es ist ein Fehler unterlaufen. Es wurde kein Platz gefunden. Bitte gehe zurück zur Übersicht und wähle einen neuen Platz aus.</string>
+    <string name="empty_place_link">Kein Link vorhanden</string>
+
+    <string name="city_hall">Rathaus</string>
+    <string name="city_hall_description">Das Rathaus ist eine der Augsburger Hauptsehenswürdigkeiten. Stadtwerkmeister Elias Holl errichtete den bedeutendsten Profanbau der deutschen Renaissance zwischen 1615 und 1620. Der dort bis 1624 entstandene Goldene Saal – benannt nach der vergoldeten hölzernen Decke – ist einer der imposantesten Repräsentationsräume Deutschlands und vermittelt den Glanz der Reichsstadt.</string>
+    <string name="city_hall_link"><![CDATA[<a href=\'http://www.augsburg.de/kultur/sehenswuerdigkeiten/rathaus/\'>Weitere Informationen…</a>]]></string>
+
+    <string name="perlach_tower">Perlachturm</string>
+    <string name="perlach_tower_description">Der Perlachturm entstand ab dem 10. Jahrhundert. Von 1614 bis 1616 wurde er von Elias Holl im Stil der Renaissance erhöht. Die Aussichtsplattform in 70 Metern Höhe erlaubt bei Föhn den Blick auf die Alpen. Der Perlachturm ist der „Campanile“ der im Kern romanischen Kirche St. Peter am Perlach. Im Inneren: der romanische Christus Salvator, das Fuggerkreuz und das Bild der Maria Knotenlöserin.</string>
+    <string name="perlach_tower_link"><![CDATA[<a href=\'http://www.augsburg.de/kultur/sehenswuerdigkeiten/perlachturm/\'>Weitere Informationen…</a>]]></string>
+
+    <string name="magnificent_fountains">Monumentalbrunnen</string>
+    <string name="magnificent_fountains_description">Der Augustusbrunnen ist das Werk von Hubert Gerhard: Auf dem Pfeiler steht seit 1594 die Figur des Stadtgründers. Auf dem Beckenrand lagern Figuren der Gewässer Lech, Wertach, Singold und Brunnenbach. Adriaen de Vries gestaltete die Bronzefiguren des Merkurbrunnens auf dem Moritzplatz (seit 1599 in Betrieb). Die Figuren des Herkulesbrunnens in der Maximilianstraße schuf de Vries bis zum Jahr 1600.</string>
+    <string name="magnificent_fountains_link"><![CDATA[<a href=\'http://www.augsburg.de/kultur/sehenswuerdigkeiten/brunnen/\'>Weitere Informationen…</a>]]></string>
+
+    <string name="cathedral">Dom St. Maria</string>
+    <string name="cathedral_description">Der ottonische Dom entstand um das Jahr 1000 über einem karolingischen Vorgängerbau, dessen Krypta erhalten ist. Fünf romanische Prophetenfenster von 1065 sind der älteste figürliche Glasmalereizyklus der Welt. Im 14. und 15. Jahrhundert erhielt die Kirche den gotischen Chor und zwei bedeutende Figurenportale. Im Domkreuzgang sieht man hunderte kunstvoll gearbeiteter Grabsteine ab 1285.</string>
+    <string name="cathedral_link"><![CDATA[<a href=\'https://bistum-augsburg.de/Pfarreien/Zum-Hlgst.-Herzen-Jesu_Augsburg-Dom/Der-Dom\'>Weitere Informationen…</a>]]></string>
+
+    <string name="mozart_house">Mozarthaus</string>
+    <string name="mozart_house_description"> Das schmale barocke Handwerkerhaus an der Frauentorstraße ist das Geburtshaus von Leopold Mozart – dem Vater, Entdecker und Musiklehrer von Wolfgang Amadé Mozart. Eine Gedenktafel an der Fassade und die rote Stele vor dem Haus erinnern an die beiden Komponisten. Mehr zu Vater und Sohn sowie zur Augsburger Familie Mozart erfährt man in der Dauerausstellung im Mozarthaus.</string>
+    <string name="mozart_house_link"><![CDATA[<a href=\'http://www.augsburg.de/kultur/museen-galerien/mozarthaus/\'>Weitere Informationen…</a>]]></string>
+
+    <string name="ana_church">St. Anna</string>
+    <string name="ana_church_description">St. Anna war die Kirche eines 1321 gegründeten Karmeliterklosters. Die bis 1749 barockisierte Kirche beherbergt die Goldschmiedekapelle und die Fuggerkapelle, den ersten Renaissancebau Bayerns und die Grablege Jakob Fuggers. 1518 hielt sich Martin Luther im Kloster auf, im Ostchor hängt sein Porträt aus Cranachs Werkstatt. Das Museum Lutherstiege vermittelt die frühe Reformation in Augsburg.</string>
+    <string name="ana_church_link"><![CDATA[<a href=\'https://de.wikipedia.org/wiki/St._Anna_(Augsburg)\'>Weitere Informationen…</a>]]></string>
+
+    <string name="synagogue">Synagoge</string>
+    <string name="synagogue_description">Von 1913 bis 1917 errichteten die Architekten Lömpel und Landauer die im eklektizistischen Stil geplante Augsburger Synagoge, eine der bedeutendsten Europas. Mit der Restaurierung des im Jahr 1938 in Brand gesteckten Bauwerks entstand bis 1985 das Jüdische Kulturmuseum Augsburg-Schwaben, das die Geschichte der jüdischen Gemeinden im bayerischen Schwaben dokumentiert.</string>
+    <string name="synagogue_link"><![CDATA[<a href=\'http://www.augsburg.de/kultur/sehenswuerdigkeiten/synagoge/\'>Weitere Informationen…</a>]]></string>
+
+    <string name="fugger_palace">Fuggerhäuser</string>
+    <string name="fugger_palace_description">Jakob Fugger „der Reiche“ (ab 1512) und spätere Fugger erbauten die Fuggerhäuser. Bis 1515 entstand der italienisch wirkende Damenhof. Im Stadtpalast hielten sich Kaiser Karl V. und andere Habsburger auf. Dort wurde Luther 1518 von Kardinal Cajetan verhört, residierte 1632 Schwedenkönig Gustav II. Adolf und gab Mozart 1777 ein Konzert. Die Badstuben zeigen die manieristische Raumkunst Italiens.</string>
+    <string name="fugger_palace_link"><![CDATA[<a href=\'https://de.wikipedia.org/wiki/Fuggerh%C3%A4user/\'>Weitere Informationen…</a>]]></string>
+
+    <string name="stadtmetzg">Stadtmetzg</string>
+    <string name="stadtmetzg_description">Die städtische Verkaufshalle der Metzger wurde von 1606 bis 1609 von Stadtwerkmeister Elias Holl im Stil der Renaissance errichtet. Vor der Schaufassade – an der steinerne Rinderschädel an die frühere Nutzung erinnnern – des dreigeschossigen Satteldachbaus steht der Georgsbrunnen. Diese Figur eines unbekannten Künstlers wurde 1565 gegossen: Sie zierte ursprünglich eine Fassade.</string>
+    <string name="stadtmetzg_link"><![CDATA[<a href=\'http://www.augsburg.de/kultur/welterbe-bewerbung/augsburger-wasserwirtschaft/die-stadtmetzg/\'>Weitere Informationen…</a>]]></string>
+
+    <string name="schaezler_palace">Schaezlerpalais</string>
+    <string name="schaezler_palace_description">Das Schaezlerpalais ließ ein Silberhändler bis 1770 errichten. Der Festsaal des Rokokopalastes wurde im Beisein von Marie Antoinette, der späteren Königin von Frankreich, eingeweiht. Die Kunstsammlungen und Museen Augsburg zeigen barocke Malerei, darunter Werke von Rubens und Tiepolo. Durch das Palais führt der Weg in die Staatsgalerie in der Katharinenkirche (Dürer, Holbein d.Ä, Burgkmair d.Ä.).</string>
+    <string name="schaezler_palace_link"><![CDATA[<a href=\'http://www.augsburg.de/kultur/museen-galerien/schaezlerpalais/\'>Weitere Informationen…</a>]]></string>
+
+    <string name="ulrichs_churches">Ulrichskirchen</string>
+    <string name="ulrichs_churches_description">Der 1474 begonnene Bau der spätgotischen Benediktinerklosterkirche St. Ulrich und Afra war 1603/04 abgeschlossen. Für die Basilika stifteten die Fugger fünf Grabkapellen und die Fuggerorgel. Aus einer an die zweitgrößte Kirche der Stadt angebauten Predigthalle entstand bis 1710 die evangelische Kirche St. Ulrich. St. Ulrich und Afra und St. Ulrich sind eine der beiden Doppelkirchen in der Stadt.</string>
+    <string name="ulrichs_churches_link"><![CDATA[<a href=\'http://ulrichsbasilika.de/die-basilika.html\'>Weitere Informationen…</a>]]></string>
+
+    <string name="fuggerei">Fuggerei</string>
+    <string name="fuggerei_description">Jakob Fugger stiftete 1521 die älteste bestehende Sozialsiedlung der Welt. In ihren 140 Häusern leben 150 katholische Augsburger Bürger. Sie bezahlen für eine rund 60 Quadratmeter große Wohnung eine jährliche (Kalt-) Miete von 0,88 Euro. Dafür sprechen sie täglich drei Gebete für die Stifterfamilie. Das Fuggereimuseum und der Welktriegsbunker erklären die Geschichte dieser Reihenhaussiedlung.</string>
+    <string name="fuggerei_link"><![CDATA[<a href=\'http://www.augsburg.de/kultur/sehenswuerdigkeiten/fuggerei/\'>Weitere Informationen…</a>]]></string>
+
+    <string name="brecht_house">Brechthaus</string>
+    <string name="brecht_house_description">Im Brechthaus wurde 1898 Bertolt Brecht – der Schöpfer der "Dreigroschenoper" und der "Mutter Courage und ihre Kinder" – geboren. Die Gedenktafel an der Fassade des Handwerkhäuschens "Auf dem Rain 7" im Lechviertel erinnert an den berühmten Sohn der Stadt. Die Dauerausstellung in dieser Gedenkstätte dokumentiert seine prägenden Jahre in Augsburg, seinen Lebensweg und sein Werk.</string>
+    <string name="brecht_house_link"><![CDATA[<a href=\'http://www.augsburg.de/kultur/museen-galerien/brechthaus/\'>Weitere Informationen…</a>]]></string>
+
+    <string name="diocesan_museum">Diözesanmuseum St. Afra</string>
+    <string name="diocesan_museum_description">Siebzehn Jahrhunderte Geschichte erleben: Ausgrabungen der Römerzeit, Textilien vom 9. bis zum 13. Jh.,das weithin berühmte Bronzeportal des Augsburger Doms, gotische und barocke Schätze aus Augsburger Kirchen bis hin zu zeitgenössischer Kunst laden zur Zeitreise durch das Bistum des hl. Ulrich ein – gleich hinter dem Dom!</string>
+    <string name="diocesan_museum_link"><![CDATA[<a href=\'http://www.augsburg.de/kultur/museen-galerien/dioezesanmuseum-st-afra/\'>Weitere Informationen…</a>]]></string>
+
+    <string name="fugger_welser_museum">Fugger und Welser Erlebnismuseum</string>
+    <string name="fugger_welser_museum_description">Das Wieselhaus ist eines der letzten original erhaltenen Augsburger Wohnhäuser im Stil der Renaissance. Benannt ist der Bau nach dem um 1650 wohl bedeutendsten deutschen Optiker. Im Denkmal erzählt das "Fugger und Welser Erlebnismuseum" von reichen Kaufmannsfamilien im "goldenen Augsburg der Renaissance" sowie ihren globalen Handelsnetzwerken – und vergleicht die Wirtschaft von damals und heute.</string>
+    <string name="fugger_welser_museum_link"><![CDATA[<a href=\'http://www.augsburg.de/kultur/museen-galerien/fugger-und-welser-erlebnismuseum/\'>Weitere Informationen…</a>]]></string>
+
+    <string name="maximilian_museum">Maximilianmuseum</string>
+    <string name="maximilian_museum_description">In zwei Patrizierpalästen präsentiert das Maximilianmuseum die Kulturgeschichte der Stadt mit Augsburger Silber, Bildhauerei, wissenschaftlichen Instrumenten, Uhren, Porzellan und Fayencen sowie mit der stadtgeschichtlichen Sammlung. In dem mit Glas überdachten Viermetzhof stehen Originalbronzen des Augustus-, Merkur- und Herkulesbrunnens. Die Modellkammer im Museum ist weltweit ohne Parallele.
+    </string>
+    <string name="maximilian_museum_link"><![CDATA[<a href=\'http://www.augsburg.de/kultur/museen-galerien/maximilianmuseum/\'>Weitere Informationen…</a>]]></string>
+
+    <string name="die_kiste">Augsburger Puppenkiste</string>
+    <string name="die_kiste_description">Ab 1623 errichtete Stadtwerkmeister Elias Holl das massige Spitalgebäude. In dem Renaissancebau führt die Augsburger Puppenkiste seit 1948 Märchen, Schauspiele und Kabarett auf. Ab 1953 machten TV-Produktionen (Kater Mikesch, Räuber Hotzenplotz, Jim Knopf, Urmel aus dem Eis) die Marionettenbühne populär. Im Spital zeigt das Puppentheatermuseum „die Kiste“ die bekanntesten Marionetten in Vitrinen.</string>
+    <string name="die_kiste_link"><![CDATA[<a href=\'http://www.augsburg.de/kultur/museen-galerien/die-kiste/\'>Weitere Informationen…</a>]]></string>
+
+    <string name="walter_art_museum">Kunstmuseum Walter</string>
+    <string name="walter_art_museum_description">Mit etlichen hundert Werken von rund 200 Künstlern verschiedenster Stilrichtungen und Schulen zählt das Kunstmuseum Walter im Industriedenkmal Glaspalast zu den größten Privatsammlungen Deutschlands. Auf rund 6000 Quadratmetern Fläche sieht man Werke von R. Penck, Markus Lüpertz, Georg Baselitz und Max Ernst sowie Skulpturen des venezianischen Glaskünstlers Egidio Costantini (Beim Glaspalast 1).
+    </string>
+    <string name="walter_art_museum_link"><![CDATA[<a href=\'http://www.augsburg.de/kultur/museen-galerien/kunstmuseum-walter/5\'>Weitere Informationen…</a>]]></string>
+
+    <string name="textile_museum">tim: Staatliches Textil- &amp; Industriemuseum</string>
+    <string name="textile_museum_description">Mit einer eigenen Weberei, Spinnereimaschinen und einem Laufsteg für Modegeschichte zeigt das Staatliche Textil- und Industriemuseum (tim), dass Augsburg in der Zeit von 1840 bis in die zweite Hälfte des 20. Jahrhunderts ein europaweit bedeutender Textilindustriestandort war. Das Museum wurde in einem Gebäude der Augsburger Kammgarnspinnerei, eine der frühesten Fabriken Bayerns, eingerichtet.</string>
+    <string name="textile_museum_link"><![CDATA[<a href=\'http://www.augsburg.de/kultur/museen-galerien/textil-und-industriemuseum-tim/\'>Weitere Informationen…</a>]]></string>
+
+    <string name="augsburg_zoo">Zoo Augsburg</string>
+    <string name="augsburg_zoo_description">Der 1937 gegründete Zoo Augsburg beherbergt heute auf 22 Hektar rund 1.500 Tiere aus circa 250 Arten. Höhepunkte sind das zentrale Afrikapanorama, das Raubtierhaus und etliche in den letzten Jahren neu errichtete Gehege und Gebäude.</string>
+    <string name="augsburg_zoo_link"><![CDATA[<a href=\'http://www.augsburg.de/freizeit/ausflugsziele/zoo-augsburg/\'>Weitere Informationen…</a>]]></string>
+
+    <string name="botanical_gardens">Botanischer Garten</string>
+    <string name="botanical_gardens_description">In direkter Nachbarschaft des Zoos liegt der 1936 gegründete Botanische Garten Augsburg. Diese Anlage wurde seitdem auf zehn Hektar erweitert und ist ganzjährig geöffnet. Höhepunkte sind die „Pflanzenwelt unter Glas“, der Japanische Garten und die Tulpenblüte im Frühjahr. Die Themengärten reichen vom römischen Garten über einen Bauerngarten oder den Apothekergarten bis zum Wassergarten.</string>
+    <string name="botanical_gardens_link"><![CDATA[<a href=\'http://www.augsburg.de/freizeit/ausflugsziele/botanischer-garten/\'>Weitere Informationen…</a>]]></string>
+
+    <string name="climbing_forest_scherneck">Kletterwald Scherneck</string>
+    <string name="climbing_forest_scherneck_description">Der Kletterwald Scherneck ist der zweitgrößte Kletterwald Bayerns – neun Parcours mit Seilen, Balken, Brücken und Netzen für 92 Übungen zum Klettern, Balancieren und Schwingen. Die Kletterausrüstung erhält man vor Ort. Für Kinder ab 8 Jahren geeignet.</string>
+    <string name="climbing_forest_scherneck_link"><![CDATA[<a href=\'http://www.kletterwald-scherneck.de/\'>Weitere Informationen…</a>]]></string>
+
+    <string name="football_golf">Soccerpark Rehling</string>
+    <string name="football_golf_description">Fußballgolf ist eine Sportart, die Fußball und Golf kombiniert. Ziel ist es, den Ball mit möglichst wenigen Schüssen durch Hindernisse und über Geländeneigungen bis in ein Bodenloch zu spielen. Auf den in die Natur eingebundenen Bahnen in Rehling kann jeder sein Geschick unter Beweis stellen. Spezielle Vorbereitung oder Ausrüstung ist nicht nötig. Nach kurzer Einweisung geht es auf den Parcours.</string>
+    <string name="football_golf_link"><![CDATA[<a href=\'https://www.soccerpark-rehling.de/\'>Weitere Informationen…</a>]]></string>
+
+    <string name="titania">Titania Neusäß</string>
+    <string name="titania_description">1.000 Quadratmeter Wasserfläche mit einer naturnah angelegten Felsenlandschaft, geheimnisvolle Grotten, ein gestrandetes Piratenschiff, Plansch- und Kinderbecken, Deutschlands erste Trichterrutsche und die 120 Meter lange Achterrutsche machen das Erlebnisbad Titania in Neusäß für junge Familien zur Attraktion.</string>
+    <string name="titania_link"><![CDATA[<a href=\'https://www.titania-neusaess.de/\'>Weitere Informationen…</a>]]></string>
+
+    <string name="boulder_soccer_gersthofen">Boulder &amp; Soccercenter Gersthofen</string>
+    <string name="boulder_soccer_gersthofen_description">Bouldern und Klettern, Soccer/Hallenfußball, SKY-Sportsbar, Lounge (Eventlocation zum mieten), Tischtennis, Kicker usw. Das Boulder &amp; Soccercenter Gersthofen bietet Freizeitspaß für alle! Familie, Freunde, Betriebe oder Vereine, für jeden ist etwas dabei…</string>
+    <string name="boulder_soccer_gersthofen_link"><![CDATA[<a href=\'https://boulder-soccercenter.de/\'>Weitere Informationen…</a>]]></string>
+
+</resources>

@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- App bar style -->
+    <style name="Toolbar" parent="ThemeOverlay.AppCompat.ActionBar">
+        <!-- Remove the shadow below the app bar -->
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+
+    <style name="ListItemStyle">
+
+    </style>
+
+    <style name="ListItemStyle.Item">
+        <item name="android:textAppearance">?attr/textAppearanceListItem</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ListItemStyle.SubItem">
+        <item name="android:textAppearance">?attr/textAppearanceListItemSecondary</item>
+    </style>
+
+</resources>

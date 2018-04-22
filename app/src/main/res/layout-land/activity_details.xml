@@ -36,6 +36,7 @@
             android:layout_height="wrap_content"
             android:layout_alignBottom="@+id/image"
             android:layout_alignRight="@id/image"
+            android:layout_alignParentRight="true"
             android:layout_margin="@dimen/small_padding"
             android:background="@drawable/button_round_background"
             android:src="@drawable/ic_map_black_24dp" />
@@ -45,7 +46,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:context=".DetailsActivity"
-            android:layout_toRightOf="@id/map_button">
+            android:layout_toRightOf="@id/image">
 
             <LinearLayout
                 android:layout_width="match_parent"

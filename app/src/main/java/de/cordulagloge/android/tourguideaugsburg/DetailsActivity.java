@@ -15,6 +15,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -25,7 +26,7 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-public class DetailsActivity extends AppCompatActivity{
+public class DetailsActivity extends AppCompatActivity {
 
     private Places currentPlace;
 
@@ -39,18 +40,15 @@ public class DetailsActivity extends AppCompatActivity{
         actionBar.setDisplayHomeAsUpEnabled(true);
 
         Intent placeIntent = getIntent();
-        if (placeIntent != null)
-        {
+        if (placeIntent != null) {
             currentPlace = placeIntent.getParcelableExtra("currentPlace");
-        }
-        else if(savedInstanceState != null){
+        } else if (savedInstanceState != null) {
             currentPlace = savedInstanceState.getParcelable("currentPlace");
-        }
-        else {
+        } else {
             currentPlace = new Places(R.string.empty_place, R.string.inner_city,
                     R.string.empty_place_description, R.drawable.augsburg_default, R.drawable.augsburg_default_small, R.string.empty_place_link);
         }
-        Log.i("onCreate",getString(currentPlace.getName()));
+        Log.i("onCreate", getString(currentPlace.getName()));
         actionBar.setTitle(currentPlace.getName());
         TextView link = findViewById(R.id.link);
         Spanned linkText = Html.fromHtml(getString(currentPlace.getLink()));
@@ -60,11 +58,18 @@ public class DetailsActivity extends AppCompatActivity{
         TextView description = findViewById(R.id.description);
         description.setText(getString(currentPlace.getDescription()));
 
-        ImageView image = findViewById(R.id.image);
-        image.setImageResource(currentPlace.getImageResourceId());
-
-
         ImageButton mapButton = findViewById(R.id.map_button);
+        ImageView image = findViewById(R.id.image);
+        if (currentPlace.checkForImage()) {
+            image.setImageResource(currentPlace.getImageResourceId());
+        } else {
+            image.setVisibility(View.GONE);
+            RelativeLayout.LayoutParams params = (RelativeLayout.LayoutParams) mapButton.getLayoutParams();
+            params.addRule(RelativeLayout.ALIGN_PARENT_RIGHT);
+            mapButton.setLayoutParams(params);
+        }
+
+
         if (currentPlace.checkForMapLink()) {
             mapButton.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -74,15 +79,14 @@ public class DetailsActivity extends AppCompatActivity{
                     startActivity(mapIntent);
                 }
             });
-        }
-        else {
+        } else {
             mapButton.setVisibility(View.GONE);
         }
     }
 
     @Override
-    public void onSaveInstanceState(Bundle savedInstanceState){
+    public void onSaveInstanceState(Bundle savedInstanceState) {
         super.onSaveInstanceState(savedInstanceState);
-        savedInstanceState.putParcelable("currentPlace",currentPlace);
+        savedInstanceState.putParcelable("currentPlace", currentPlace);
     }
 }

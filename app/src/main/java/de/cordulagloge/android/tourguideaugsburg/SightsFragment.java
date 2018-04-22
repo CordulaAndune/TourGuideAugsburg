@@ -10,6 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.GridView;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -77,7 +78,7 @@ public class SightsFragment extends Fragment {
                 R.drawable.augsburg_brecht_house, R.drawable.augsburg_brecht_house_small
                 , R.string.brecht_house_link,new double[]{48.36998759999999, 10.900059599999963}));
 
-        ListView sightsListView = rootView.findViewById(R.id.listview);
+        GridView sightsListView = rootView.findViewById(R.id.listview);
         PlacesAdapter placesAdapter = new PlacesAdapter(getContext(), sightsList);
         sightsListView.setAdapter(placesAdapter);
 

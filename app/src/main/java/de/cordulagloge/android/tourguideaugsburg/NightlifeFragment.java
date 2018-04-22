@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.GridView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -69,7 +70,7 @@ public class NightlifeFragment extends Fragment {
         sightsList.add(new Places(R.string.spectrum, R.string.oberhausen, R.string.spectrum_description
                 , R.string.spectrum_link, new double[]{48.380091, 10.849902}));
 
-        ListView sightsListView = rootView.findViewById(R.id.listview);
+        GridView sightsListView = rootView.findViewById(R.id.listview);
         PlacesAdapter placesAdapter = new PlacesAdapter(getContext(), sightsList);
         sightsListView.setAdapter(placesAdapter);
 

@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.GridView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -65,7 +66,7 @@ public class RestaurantsFragment extends Fragment {
         sightsList.add(new Places(R.string.thalia, R.string.inner_city, R.string.thalia_description
                 , R.string.thalia_link, new double[]{48.370787, 10.896890}));
 
-        ListView sightsListView = rootView.findViewById(R.id.listview);
+        GridView sightsListView = rootView.findViewById(R.id.listview);
         PlacesAdapter placesAdapter = new PlacesAdapter(getContext(), sightsList);
         sightsListView.setAdapter(placesAdapter);
 

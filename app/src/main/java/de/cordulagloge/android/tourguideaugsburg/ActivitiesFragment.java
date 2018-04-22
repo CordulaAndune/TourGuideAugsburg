@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.GridView;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -69,7 +70,7 @@ public class ActivitiesFragment extends Fragment {
                 R.drawable.augsburg_default, R.drawable.augsburg_default_small
                 , R.string.boulder_soccer_gersthofen_link, new double[]{48.43792029999999, 10.872801500000037}));
 
-        ListView sightsListView = rootView.findViewById(R.id.listview);
+        GridView sightsListView = rootView.findViewById(R.id.listview);
         PlacesAdapter placesAdapter = new PlacesAdapter(getContext(), sightsList);
         sightsListView.setAdapter(placesAdapter);
 

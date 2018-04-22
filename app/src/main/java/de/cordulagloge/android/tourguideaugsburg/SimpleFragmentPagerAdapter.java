@@ -12,7 +12,10 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
 
     public SimpleFragmentPagerAdapter(FragmentManager fm, Context context) {
         super(fm);
-        tabTitles = new String[]{context.getString(R.string.sights),context.getString(R.string.activities)};
+        tabTitles = new String[]{context.getString(R.string.sights),
+                context.getString(R.string.activities),
+                context.getString(R.string.restaurants),
+                context.getString(R.string.nightlife)};
     }
 
     @Override
@@ -22,6 +25,10 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
                 return new SightsFragment();
             case 1:
                 return new ActivitiesFragment();
+            case 2:
+                return new RestaurantsFragment();
+            case 3:
+                return new NightlifeFragment();
             default:
                 return new SightsFragment();
         }
@@ -29,7 +36,7 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return 2;
+        return 4;
     }
 
     @Nullable

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ballonfabrik">Ballonfabrik</string>
+    <string name="ballonfabrik_description">In der ehemaligen Ballonfabrik in Augsburg-Oberhausen hat
+        der Kulturpark West 2010 weitere Arbeitsmöglichkeiten für Künstler und Kreative geschaffen.
+        Auf 1500 Quadratmeter finden sich Ateliers, Werkstätten, Kreativbüros, Workshopräume und
+        "Räume auf Zeit" für Startups sowie ein Veranstaltungsraum für selbstorganisierte Kultur, die
+        "Fabrique unique".</string>
+    <string name="ballonfabrik_link"><![CDATA[<a href=\'http://www.ballonfabrik.org\'>Weitere Informationen…</a>]]></string>
+
+    <string name="barfly">Barfly</string>
+    <string name="barfly_description">Bar, Lounge, Club.</string>
+    <string name="barfly_link"><![CDATA[<a href=\'www.barfly-club.de\'>Weitere Informationen…</a>]]></string>
+
+    <string name="enchilada">Enchilada</string>
+    <string name="enchilada_description">Der Mexikaner-Klassiker ist seit 20 Jahren eine feste Größe
+        in Augsburgs Nightlife.</string>
+    <string name="enchilada_link"><![CDATA[<a href=\'www.enchilada.de\'>Weitere Informationen…</a>]]></string>
+
+    <string name="glimmer_bar">Golden Glimmer Bar</string>
+    <string name="glimmer_bar_description"> Seit 2011 lockt die Golden Glimmer Bar die Freunde des
+        guten Geschmacks an den Schmiedberg. Die Drinks sind ausgesucht und je nach Saison wechselt
+        die Karte mit Eigenkreationen. Für Liebhaber bester Brände gibt es eine feine Auswahl u.a.
+        von der Stählemühle. Vom Mixology Bar Guide 2017 wieder als Tipp der Redaktion ausgezeichnet.
+        Donnerstags läuft die "Meine Musik" Reihe und wechselnde DJs legen am Wochenende auf.</string>
+    <string name="glimmer_bar_link"><![CDATA[<a href=\'http://www.goldenglimmer.de/\'>Weitere Informationen…</a>]]></string>
+
+    <string name="kantine">Kantine</string>
+    <string name="kantine_description">Die Konzert- und Clubbing-Location auf zwei Ebenen feierte im
+        Mai 2012 zehnjähriges Jubiläum. Der ca. 400 Menschen fassende Club bietet ein umfassendes
+        Liveprogramm mit lokalen und internationalen Bands. Soundtechnisch geht es quer durch:
+        Independent, Alternative, Drum'n'Bass, Rock'n'Roll, 80er bis Wave, Dancehall &amp; Reggae, Rockabilly,
+        Electro. Pizza, Biergarten, Kicker.</string>
+    <string name="kantine_link"><![CDATA[<a href=\'www.musikkantine.de\'>Weitere Informationen…</a>]]></string>
+
+    <string name="kesselhaus">Kesselhaus</string>
+    <string name="kesselhaus_description">Super hohe Halle aus der Gründerzeit für tolle Events,
+        Galerie und 2. kleinerer Floor „Black Box“ in 8 Meter Höhe. Wer einen Blick über die Balustrade
+        im Mainflloor riskiert, kann den einfach unglaublichen Blick der Location von oben genießen.
+        Hier haben schon Künstler wie Monika Kruse, Westbam, Sven Väth, Fritz Klakbrenner u.a. aufgelegt.
+        Nur zu Events geöffnet.</string>
+    <string name="kesselhaus_link"><![CDATA[<a href=\'www.kesselhaus.eu\'>Weitere Informationen…</a>]]></string>
+
+    <string name="kradhalle">Kradhalle</string>
+    <string name="kradhalle_description">Die mittelgroße Halle im Kulturpark West ist zu mieten und
+        eignet sich für so ziemlich alles: Vom Flohmarkt bis zu Theatervorstellungen war schon alles
+        geboten, natürlich neben zahlreichen Konzerten und Partys.</string>
+    <string name="kradhalle_link"><![CDATA[<a href=\'www.kulturparkwest.de\'>Weitere Informationen…</a>]]></string>
+
+    <string name="kreuzweise">Kreuzweise</string>
+    <string name="kreuzweise_description">Der Keller unter den Augsburger Clubs. In der gemütlichen
+        Wohnzimmerbar trifft der Punk den Banker bei Biobier und spezieller Wodkaauswahl. Musikalisch
+        geht alles außer Mainstream, von B-Movie-Trash-Sound bis Balkanbeats.</string>
+    <string name="kreuzweise_link"><![CDATA[<a href=\'https://www.facebook.com/Kreuzweise-120110351361651/?rf=273424749394529\'>Weitere Informationen…</a>]]></string>
+
+    <string name="kultstrand">KultStrand</string>
+    <string name="kultstrand_description">Der Kultstrand befindet sich auf dem denkmalgeschützten Gelände
+        des SchlachthofQuartiers und lädt im Sommer 2015 das Augsburger Zentrum und Umland zum Kurzurlaub
+        ein. Die 2.000 qm große Kastanienwiese auf dem Gelände des SchlachthofQuartiers wird durch 400
+        Tonnen feinstem Sand zum KultStrand.</string>
+    <string name="kultstrand_link"><![CDATA[<a href=\'http://www.kultstrand.de\'>Weitere Informationen…</a>]]></string>
+
+    <string name="mahagoni_bar">Mahagoni Bar</string>
+    <string name="mahagoni_bar_description">Das Ambiente des Musikclubs ist einzigartig, denn es reicht
+        vom historischen Gewölbekeller in den sog. Katakomben bis zum Retro-Style mit Bambusoptik
+        auf dem Mainfloor. Hier bekommt Ihr freitags Clubsound abseits des Mainstreams geboten, am
+        Samstag wird meist eine Tanzfläche auf Partytauglichkeit getrimmt und die zweite Area, ein
+        Stockwerk tiefer, mit interessanter Nischenmusik beschallt. Immer wieder werden bekannte
+        auswärtigen Gast-DJs hinter den Plattentellern gesichtet. Das Musikspektrum reicht von
+        Reggae, Balkan, Indie, Breakbeats und HipHop bis zu Electro &amp; Deephouse. Bis 23 Uhr ist der
+        Eintritt meist frei und am Donnerstag beim Studentenabend könnt ihr bis 24 Uhr sogar mit
+        dem Barkeeper um den Getränkepreis zocken und ordentlich sparen!</string>
+    <string name="mahagoni_bar_link"><![CDATA[<a href=\'www.mahagonibar.de\'>Weitere Informationen…</a>]]></string>
+
+    <string name="mo">Mo Club</string>
+    <string name="mo_description">Der Mo Club - seit Jahren der Garant für fünf Nächte Party pur –
+        und das jede Woche! Dienstags ist im Mo die Party für alle Studenten zuhause, abfeiern zum
+        besten Partysound der Stadt bei ultragünstigen Getränkepreisen. Mittwochs präsentiert Euch
+        das Mo die heißesten Tracks aus HipHop und Electro. Am Donnerstag kommen besonders die
+        Ladies auf ihre Kosten und freitags und samstags heizen Euch die Mo Club-Resident DJs so
+        richtig ein. Fünf Nächte – Fünf Parties – ein Club: Mo Club – your party location!</string>
+    <string name="mo_link"><![CDATA[<a href=\'www.moclub.de\'>Weitere Informationen…</a>]]></string>
+
+    <string name="murphys">Murphy\'s Law</string>
+    <string name="murphys_description">Irish Pub und Sportsbar mit Fastfood deluxe, Getränken von
+        Standards über Cocktails bis irische Biere und natürlich super Stimmung – da braucht man
+        nichts weiter zu sagen! Während der Fußballsaison werden Bundesliga und Champipns League
+        geschaut, u.a. alle Spiele des FCA und des FC Bayern München. Dank zwei Beamern und
+        Fernseher können verschiedene Spiele oder auch die Konferenzschaltung geschaut werden.
+        Das Murphy's Law öffnet immer spätestens 30 Minuten vor Spielbeginn.</string>
+    <string name="murphys_link"><![CDATA[<a href=\'www.murphys-law-augsburg.de\'>Weitere Informationen…</a>]]></string>
+
+    <string name="ostwerk">Ostwerk</string>
+    <string name="ostwerk_description">Auch schon ein kampferprobtes Schlachtross der Augsburger
+        Diskoszene. Am Samstag wird Geld verdient mit Partysound und Getränkespecials ("Nimm 5" -
+        fünf Getränke für fünf Euro), Leidenschaft und Engagement zeigen sich bei den regelmäßigen
+        Konzerten deutscher und internationales Acts von Frittenbude und Gisbert zu Knyphausen bis
+        zu Shout Out Louds, Blood Red Shoes und Samy Deluxe. Und auch Lesungen funktionieren im
+        Ostwerk großartig, wie schon Rocko Schamoni oder die Titanic-Crew erfahren durften. Der Club
+        im Osten ist außerdem seit Jahren Gastgeber für das Finale des Wettbewerbs "Band des
+        Jahres". Und für den Hunger parkt draußen der rollende Dönerverkauf.</string>
+    <string name="ostwerk_link"><![CDATA[<a href=\'www.ostwerk.de\'>Weitere Informationen…</a>]]></string>
+
+    <string name="rock_cafe">Rock Cafe</string>
+    <string name="rock_cafe_description">Wir bieten unseren Gästen in unserem einmaligen Ambiente
+        einen gemütlichen Aufenthalt…"oft kopiert und nicht erreicht". Jeden Samstag spielen super
+        Live-Bands. Seit 28 Jahren sorgen wir für Euer Vergnügen bei uns.</string>
+    <string name="rock_cafe_link"><![CDATA[<a href=\'http://www.rock-cafe.org\'>Weitere Informationen…</a>]]></string>
+
+    <string name="rockfabrik">Rockfabrik</string>
+    <string name="rockfabrik_description">Augsburgs Rocktempel gleich bei der MAN mit großer Tanzfläche
+        und Club im Club. Mittwoch treffen sich hier die Bewohner von "Gothic City", Donnerstag in
+        den Ferien gibt\'s "A Tunes", Freitag läuft Augsburgs härtester Partysound und am Samstag
+        geht\'s ab zum "Planet Rock" mit aktuellem Rock, Metal &amp; Classics.</string>
+    <string name="rockfabrik_link"><![CDATA[<a href=\'www.rockfabrik-augsburg.de\'>Weitere Informationen…</a>]]></string>
+
+    <string name="schwarzes_schaf">Schwarzes Schaf</string>
+    <string name="schwarzes_schaf_description">We Are The Night:
+        Unter diesem Motto versorgt das Schwarze Schaf Augsburg Wochenende für Wochenende mit ausgelassenen
+        Clubnächten und der richtigen Ladung Bass. Egal, ob Indie, Techno oder Drum\'n\'Bass,
+        alternative Clubkultur gepaart mit musikalischem Anspruch - für das alles ist das
+        Schwarze Schaf die richtige Adresse. Legendäre Partyreihen wie "Automatic Music", "We Love
+        Bass", "Alte Liebe", "Rumpelkammer" etc. sind Stammgäste, dazu immer wieder Konzerte und
+        angesagte DJ-Größen aus aller Welt.</string>
+    <string name="schwarzes_schaf_link"><![CDATA[<a href=\'www.schaf-klub.de\'>Weitere Informationen…</a>]]></string>
+
+    <string name="spectrum">Spectrum</string>
+    <string name="spectrum_description">Augsburgs Liveclub im Westen bietet seit mehr als 19 Jahren
+        das, was der Name verspricht: Ein breites Spectrum an Konzerten, kulturellen Veranstaltungen
+        und Partys. Hier gastieren regelmäßig die großen Namen vergangener Zeiten wie Mannfred Mann
+        oder John Mayall, aber auch Level 42 oder Living Colour (!) waren hier schon zu hören, neben
+        aktuellen Acts wie Katzenjammer oder Vivid Curls. Kleinkunst und Comedy gibt's auch immer wieder
+        , dazu Mottopartys und Rocksausen.</string>
+    <string name="spectrum_link"><![CDATA[<a href=\'www.spectrum-club.de\'>Weitere Informationen…</a>]]></string>
+
+</resources>

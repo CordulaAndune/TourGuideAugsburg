@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="diocesan_museum">Diözesanmuseum St. Afra</string>
+    <string name="diocesan_museum_description">Siebzehn Jahrhunderte Geschichte erleben: Ausgrabungen der Römerzeit, Textilien vom 9. bis zum 13. Jh.,das weithin berühmte Bronzeportal des Augsburger Doms, gotische und barocke Schätze aus Augsburger Kirchen bis hin zu zeitgenössischer Kunst laden zur Zeitreise durch das Bistum des hl. Ulrich ein – gleich hinter dem Dom!</string>
+    <string name="diocesan_museum_link"><![CDATA[<a href=\'http://www.augsburg.de/kultur/museen-galerien/dioezesanmuseum-st-afra/\'>Weitere Informationen…</a>]]></string>
+
+    <string name="fugger_welser_museum">Fugger und Welser Erlebnismuseum</string>
+    <string name="fugger_welser_museum_description">Das Wieselhaus ist eines der letzten original erhaltenen Augsburger Wohnhäuser im Stil der Renaissance. Benannt ist der Bau nach dem um 1650 wohl bedeutendsten deutschen Optiker. Im Denkmal erzählt das "Fugger und Welser Erlebnismuseum" von reichen Kaufmannsfamilien im "goldenen Augsburg der Renaissance" sowie ihren globalen Handelsnetzwerken – und vergleicht die Wirtschaft von damals und heute.</string>
+    <string name="fugger_welser_museum_link"><![CDATA[<a href=\'http://www.augsburg.de/kultur/museen-galerien/fugger-und-welser-erlebnismuseum/\'>Weitere Informationen…</a>]]></string>
+
+    <string name="maximilian_museum">Maximilianmuseum</string>
+    <string name="maximilian_museum_description">In zwei Patrizierpalästen präsentiert das Maximilianmuseum die Kulturgeschichte der Stadt mit Augsburger Silber, Bildhauerei, wissenschaftlichen Instrumenten, Uhren, Porzellan und Fayencen sowie mit der stadtgeschichtlichen Sammlung. In dem mit Glas überdachten Viermetzhof stehen Originalbronzen des Augustus-, Merkur- und Herkulesbrunnens. Die Modellkammer im Museum ist weltweit ohne Parallele.
+    </string>
+    <string name="maximilian_museum_link"><![CDATA[<a href=\'http://www.augsburg.de/kultur/museen-galerien/maximilianmuseum/\'>Weitere Informationen…</a>]]></string>
+
+    <string name="die_kiste">Augsburger Puppenkiste</string>
+    <string name="die_kiste_description">Ab 1623 errichtete Stadtwerkmeister Elias Holl das massige Spitalgebäude. In dem Renaissancebau führt die Augsburger Puppenkiste seit 1948 Märchen, Schauspiele und Kabarett auf. Ab 1953 machten TV-Produktionen (Kater Mikesch, Räuber Hotzenplotz, Jim Knopf, Urmel aus dem Eis) die Marionettenbühne populär. Im Spital zeigt das Puppentheatermuseum „die Kiste“ die bekanntesten Marionetten in Vitrinen.</string>
+    <string name="die_kiste_link"><![CDATA[<a href=\'http://www.augsburg.de/kultur/museen-galerien/die-kiste/\'>Weitere Informationen…</a>]]></string>
+
+    <string name="walter_art_museum">Kunstmuseum Walter</string>
+    <string name="walter_art_museum_description">Mit etlichen hundert Werken von rund 200 Künstlern verschiedenster Stilrichtungen und Schulen zählt das Kunstmuseum Walter im Industriedenkmal Glaspalast zu den größten Privatsammlungen Deutschlands. Auf rund 6000 Quadratmetern Fläche sieht man Werke von R. Penck, Markus Lüpertz, Georg Baselitz und Max Ernst sowie Skulpturen des venezianischen Glaskünstlers Egidio Costantini (Beim Glaspalast 1).
+    </string>
+    <string name="walter_art_museum_link"><![CDATA[<a href=\'http://www.augsburg.de/kultur/museen-galerien/kunstmuseum-walter/5\'>Weitere Informationen…</a>]]></string>
+
+    <string name="textile_museum">tim: Staatliches Textil- &amp; Industriemuseum</string>
+    <string name="textile_museum_description">Mit einer eigenen Weberei, Spinnereimaschinen und einem Laufsteg für Modegeschichte zeigt das Staatliche Textil- und Industriemuseum (tim), dass Augsburg in der Zeit von 1840 bis in die zweite Hälfte des 20. Jahrhunderts ein europaweit bedeutender Textilindustriestandort war. Das Museum wurde in einem Gebäude der Augsburger Kammgarnspinnerei, eine der frühesten Fabriken Bayerns, eingerichtet.</string>
+    <string name="textile_museum_link"><![CDATA[<a href=\'http://www.augsburg.de/kultur/museen-galerien/textil-und-industriemuseum-tim/\'>Weitere Informationen…</a>]]></string>
+
+    <string name="augsburg_zoo">Zoo Augsburg</string>
+    <string name="augsburg_zoo_description">Der 1937 gegründete Zoo Augsburg beherbergt heute auf 22 Hektar rund 1.500 Tiere aus circa 250 Arten. Höhepunkte sind das zentrale Afrikapanorama, das Raubtierhaus und etliche in den letzten Jahren neu errichtete Gehege und Gebäude.</string>
+    <string name="augsburg_zoo_link"><![CDATA[<a href=\'http://www.augsburg.de/freizeit/ausflugsziele/zoo-augsburg/\'>Weitere Informationen…</a>]]></string>
+
+    <string name="botanical_gardens">Botanischer Garten</string>
+    <string name="botanical_gardens_description">In direkter Nachbarschaft des Zoos liegt der 1936 gegründete Botanische Garten Augsburg. Diese Anlage wurde seitdem auf zehn Hektar erweitert und ist ganzjährig geöffnet. Höhepunkte sind die „Pflanzenwelt unter Glas“, der Japanische Garten und die Tulpenblüte im Frühjahr. Die Themengärten reichen vom römischen Garten über einen Bauerngarten oder den Apothekergarten bis zum Wassergarten.</string>
+    <string name="botanical_gardens_link"><![CDATA[<a href=\'http://www.augsburg.de/freizeit/ausflugsziele/botanischer-garten/\'>Weitere Informationen…</a>]]></string>
+
+    <string name="climbing_forest_scherneck">Kletterwald Scherneck</string>
+    <string name="climbing_forest_scherneck_description">Der Kletterwald Scherneck ist der zweitgrößte Kletterwald Bayerns – neun Parcours mit Seilen, Balken, Brücken und Netzen für 92 Übungen zum Klettern, Balancieren und Schwingen. Die Kletterausrüstung erhält man vor Ort. Für Kinder ab 8 Jahren geeignet.</string>
+    <string name="climbing_forest_scherneck_link"><![CDATA[<a href=\'http://www.kletterwald-scherneck.de/\'>Weitere Informationen…</a>]]></string>
+
+    <string name="football_golf">Soccerpark Rehling</string>
+    <string name="football_golf_description">Fußballgolf ist eine Sportart, die Fußball und Golf kombiniert. Ziel ist es, den Ball mit möglichst wenigen Schüssen durch Hindernisse und über Geländeneigungen bis in ein Bodenloch zu spielen. Auf den in die Natur eingebundenen Bahnen in Rehling kann jeder sein Geschick unter Beweis stellen. Spezielle Vorbereitung oder Ausrüstung ist nicht nötig. Nach kurzer Einweisung geht es auf den Parcours.</string>
+    <string name="football_golf_link"><![CDATA[<a href=\'https://www.soccerpark-rehling.de/\'>Weitere Informationen…</a>]]></string>
+
+    <string name="titania">Titania Neusäß</string>
+    <string name="titania_description">1.000 Quadratmeter Wasserfläche mit einer naturnah angelegten Felsenlandschaft, geheimnisvolle Grotten, ein gestrandetes Piratenschiff, Plansch- und Kinderbecken, Deutschlands erste Trichterrutsche und die 120 Meter lange Achterrutsche machen das Erlebnisbad Titania in Neusäß für junge Familien zur Attraktion.</string>
+    <string name="titania_link"><![CDATA[<a href=\'https://www.titania-neusaess.de/\'>Weitere Informationen…</a>]]></string>
+
+    <string name="boulder_soccer_gersthofen">Boulder &amp; Soccercenter Gersthofen</string>
+    <string name="boulder_soccer_gersthofen_description">Bouldern und Klettern, Soccer/Hallenfußball, SKY-Sportsbar, Lounge (Eventlocation zum mieten), Tischtennis, Kicker usw. Das Boulder &amp; Soccercenter Gersthofen bietet Freizeitspaß für alle! Familie, Freunde, Betriebe oder Vereine, für jeden ist etwas dabei…</string>
+    <string name="boulder_soccer_gersthofen_link"><![CDATA[<a href=\'https://boulder-soccercenter.de/\'>Weitere Informationen…</a>]]></string>
+</resources>

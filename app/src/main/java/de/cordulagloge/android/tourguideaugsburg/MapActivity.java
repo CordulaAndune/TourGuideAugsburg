@@ -36,7 +36,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
             currentPlace = savedInstanceState.getParcelable("currentPlace");
         } else {
             currentPlace = new Places(R.string.empty_place, R.string.inner_city,
-                    R.string.empty_place_description, R.drawable.augsburg_default, R.string.empty_place_link);
+                    R.string.empty_place_description, R.drawable.augsburg_default, R.drawable.augsburg_default_small, R.string.empty_place_link);
         }
 
         actionBar.setTitle(currentPlace.getName());
@@ -48,11 +48,12 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
 
     @Override
     public void onMapReady(GoogleMap googleMap) {
-        LatLng augsburg = new LatLng(-33.852, 151.211);
+        double[] currentCoordinates = currentPlace.getMapLink();
+        LatLng currentMarkerPosition = new LatLng(currentCoordinates[0], currentCoordinates[1]);
         googleMap.addMarker(new MarkerOptions()
-                .position(augsburg)
-                .title("Augsburg"));
-        googleMap.moveCamera(CameraUpdateFactory.newLatLng(augsburg));
+                .position(currentMarkerPosition)
+                .title(getString(currentPlace.getName())));
+        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(currentMarkerPosition,16.0f));
     }
 
     /**

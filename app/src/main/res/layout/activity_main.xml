@@ -24,9 +24,12 @@
             android:id="@+id/tab_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            app:tabMaxWidth="264dp"
+            app:tabMinWidth="72dp"
+            app:tabGravity="center"
             app:tabBackground="@color/colorPrimary"
             app:tabIndicatorColor="@android:color/white"
-            app:tabMode="fixed"
+            app:tabMode="scrollable"
             app:tabSelectedTextColor="@android:color/white"
             app:tabTextColor="@color/colorTanned" />
 

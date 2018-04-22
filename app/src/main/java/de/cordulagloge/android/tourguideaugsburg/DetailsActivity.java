@@ -48,7 +48,7 @@ public class DetailsActivity extends AppCompatActivity{
         }
         else {
             currentPlace = new Places(R.string.empty_place, R.string.inner_city,
-                    R.string.empty_place_description, R.drawable.augsburg_default, R.string.empty_place_link);
+                    R.string.empty_place_description, R.drawable.augsburg_default, R.drawable.augsburg_default_small, R.string.empty_place_link);
         }
         Log.i("onCreate",getString(currentPlace.getName()));
         actionBar.setTitle(currentPlace.getName());
@@ -63,15 +63,21 @@ public class DetailsActivity extends AppCompatActivity{
         ImageView image = findViewById(R.id.image);
         image.setImageResource(currentPlace.getImageResourceId());
 
+
         ImageButton mapButton = findViewById(R.id.map_button);
-        mapButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent mapIntent = new Intent(DetailsActivity.this, MapActivity.class);
-                mapIntent.putExtra("currentPlace",currentPlace);
-                startActivity(mapIntent);
-            }
-        });
+        if (currentPlace.checkForMapLink()) {
+            mapButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent mapIntent = new Intent(DetailsActivity.this, MapActivity.class);
+                    mapIntent.putExtra("currentPlace", currentPlace);
+                    startActivity(mapIntent);
+                }
+            });
+        }
+        else {
+            mapButton.setVisibility(View.GONE);
+        }
     }
 
     @Override

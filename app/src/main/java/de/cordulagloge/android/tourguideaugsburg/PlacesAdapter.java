@@ -42,7 +42,12 @@ public class PlacesAdapter extends ArrayAdapter<Places> {
         distance.setText(getContext().getString(currentPlace.getDistance()));
 
         ImageView image = convertView.findViewById(R.id.place_image);
-        image.setImageResource(currentPlace.getImageResourceId());
+        if (currentPlace.checkForImage()) {
+            image.setImageResource(currentPlace.getImageSmallId());
+        }
+        else {
+            image.setVisibility(View.GONE);
+        }
 
         return convertView;
     }

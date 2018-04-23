@@ -27,6 +27,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         Toolbar detailsToolbar = findViewById(R.id.toolbar);
         setSupportActionBar(detailsToolbar);
         ActionBar actionBar = getSupportActionBar();
+        assert actionBar != null;
         actionBar.setDisplayHomeAsUpEnabled(true);
 
         Intent placeIntent = getIntent();
@@ -57,7 +58,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
     }
 
     /**
-     *  Conteol up button behaviour: send current Place to parent (Detail)Activity
+     *  Control up button behaviour: send current Place to parent (Detail)Activity
      * @param item clicked item on the toolbar
      * @return
      */
@@ -67,6 +68,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
             // Respond to the action bar's Up/Home button
             case android.R.id.home:
                 Intent detailIntent = NavUtils.getParentActivityIntent(this);
+                assert detailIntent != null;
                 detailIntent.putExtra("currentPlace", currentPlace);
                 NavUtils.navigateUpTo(this, detailIntent);
                 return true;

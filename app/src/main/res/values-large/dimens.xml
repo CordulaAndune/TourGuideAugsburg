@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="outer_padding">28dp</dimen>
+    <dimen name="list_item_height">166dp</dimen>
+    <dimen name="small_padding">16dp</dimen>
+    <dimen name="buttonSize">96dp</dimen>
+    <dimen name="maxImageHeight">1000dp</dimen>
+
+    <dimen name="listItemTS">28sp</dimen>
+    <dimen name="listSubItemTS">28sp</dimen>
+</resources>

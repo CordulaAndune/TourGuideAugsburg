@@ -3,13 +3,13 @@ package de.cordulagloge.android.tourguideaugsburg;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.GridView;
-import android.widget.ListView;
 
 import java.util.ArrayList;
 
@@ -24,15 +24,15 @@ public class RestaurantsFragment extends Fragment {
         // Required empty public constructor
     }
 
-
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_places, container, false);
 
+        // Create ArrayList with all places in Restaurant list
         final ArrayList<Places> sightsList = new ArrayList<>();
         sightsList.add(new Places(R.string.al_theatro, R.string.inner_city, R.string.al_theatro_description,
-                 R.string.al_theatro_link, new double[]{48.366177, 10.902402}));
+                R.string.al_theatro_link, new double[]{48.366177, 10.902402}));
         sightsList.add(new Places(R.string.anna_cafe, R.string.inner_city, R.string.anna_cafe_description
                 , R.string.anna_cafe_link, new double[]{48.367757, 10.894701}));
         sightsList.add(new Places(R.string.anno_1578, R.string.inner_city, R.string.anno_1578_description,
@@ -81,5 +81,4 @@ public class RestaurantsFragment extends Fragment {
 
         return rootView;
     }
-
 }

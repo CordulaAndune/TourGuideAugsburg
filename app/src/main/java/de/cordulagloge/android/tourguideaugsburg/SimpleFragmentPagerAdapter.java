@@ -8,7 +8,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
 
-    private String[] tabTitles;
+    private final String[] tabTitles;
 
     public SimpleFragmentPagerAdapter(FragmentManager fm, Context context) {
         super(fm);

@@ -2,21 +2,16 @@ package de.cordulagloge.android.tourguideaugsburg;
 
 
 import android.content.Intent;
-import android.databinding.DataBindingUtil;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.GridView;
-import android.widget.ListView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
-
-import javax.xml.datatype.Duration;
 
 
 /**
@@ -24,20 +19,19 @@ import javax.xml.datatype.Duration;
  */
 public class SightsFragment extends Fragment {
 
-    ArrayList<Places> sightsList;
+    private ArrayList<Places> sightsList;
 
     public SightsFragment() {
         // Required empty public constructor
     }
 
-
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.fragment_places, container, false);
 
-        sightsList = new ArrayList<Places>();
+        sightsList = new ArrayList<>();
         sightsList.add(new Places(R.string.city_hall, R.string.inner_city, R.string.city_hall_description,
                 R.drawable.augsburg_town_hall, R.drawable.augsburg_town_hall_small
                 , R.string.city_hall_link,new double[]{48.36874299999999, 10.898718199999962}));
@@ -92,5 +86,4 @@ public class SightsFragment extends Fragment {
         });
         return rootView;
     }
-
 }

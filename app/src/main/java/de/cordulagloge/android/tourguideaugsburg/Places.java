@@ -4,13 +4,17 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 public class Places implements Parcelable {
-    private int mName, mDistance, mLink;
-    private int mImageResourceId, mImageSmallId, mDescription;
-    private double[] mMapLink;
-    private int hasMapLink;
+    private final int mName;
+    private final int mDistance;
+    private final int mLink;
+    private int mImageResourceId;
+    private int mImageSmallId;
+    private final int mDescription;
+    private final double[] mMapLink;
+    private final int hasMapLink;
     private int hasImages;
 
-    public Places(int name, int distance, int description, int ImageResourceId, int ImageSmallId, int link, double[] mapLink ){
+    public Places(int name, int distance, int description, int ImageResourceId, int ImageSmallId, int link, double[] mapLink) {
         mName = name;
         mDistance = distance;
         mDescription = description;
@@ -22,7 +26,7 @@ public class Places implements Parcelable {
         hasImages = 0;
     }
 
-    public Places(int name, int distance, int description, int link, double[] mapLink ){
+    public Places(int name, int distance, int description, int link, double[] mapLink) {
         mName = name;
         mDistance = distance;
         mDescription = description;
@@ -32,7 +36,7 @@ public class Places implements Parcelable {
         hasImages = 1;
     }
 
-    public Places(int name, int distance, int description, int ImageResourceId, int ImageSmallId, int link){
+    public Places(int name, int distance, int description, int ImageResourceId, int ImageSmallId, int link) {
         mName = name;
         mDistance = distance;
         mDescription = description;
@@ -56,26 +60,14 @@ public class Places implements Parcelable {
         return mImageSmallId;
     }
 
-    /**
-     * Get name of  place
-     * @return places name
-     */
     public int getName() {
         return mName;
     }
 
-    /**
-     * Get distance of  place
-     * @return distance name
-     */
     public int getDistance() {
         return mDistance;
     }
 
-    /**
-     * Get image rsource id of  place
-     * @return Image resource id
-     */
     public int getImageResourceId() {
         return mImageResourceId;
     }
@@ -84,11 +76,11 @@ public class Places implements Parcelable {
         return mMapLink;
     }
 
-    public boolean checkForMapLink(){
+    public boolean checkForMapLink() {
         return hasMapLink == 0;
     }
 
-    public boolean checkForImage(){
+    public boolean checkForImage() {
         return hasImages == 0;
     }
 
@@ -109,7 +101,7 @@ public class Places implements Parcelable {
         dest.writeInt(this.hasMapLink);
     }
 
-    protected Places(Parcel in) {
+    private Places(Parcel in) {
         this.mName = in.readInt();
         this.mDistance = in.readInt();
         mMapLink = new double[2];

@@ -13,15 +13,15 @@
     <string name="spickel">Spickel - Herrenbach</string>
     <string name="scherneck">Scherneck - Rehling</string>
     <string name="neusaess">Neusäß</string>
-
-
-    <string name="empty_place">Kein Platz ausgewählt</string>
-    <string name="empty_place_description">Es ist ein Fehler unterlaufen. Es wurde kein Platz gefunden. Bitte gehe zurück zur Übersicht und wähle einen neuen Platz aus.</string>
-    <string name="empty_place_link">Kein Link vorhanden</string>
-    <string name="oberhausen">Oberhausen</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="kriegshaber">Kriegshaber</string>
     <string name="lechhausen">Lechhausen</string>
+    <string name="oberhausen">Oberhausen</string>
+
+    <string name="empty_place">Kein Platz ausgewählt</string>
+    <string name="empty_place_description">Es ist ein Fehler unterlaufen. Es wurde kein Platz gefunden.
+        Bitte gehe zurück zur Übersicht und wähle einen neuen Platz aus.</string>
+    <string name="empty_place_link">Kein Link vorhanden</string>
+
+    <string name="place_image">Place image</string>
+    <string name="go_to_map">Go to map</string>
 </resources>

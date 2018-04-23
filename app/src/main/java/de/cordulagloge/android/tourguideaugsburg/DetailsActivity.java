@@ -1,30 +1,18 @@
 package de.cordulagloge.android.tourguideaugsburg;
 
-import android.app.FragmentManager;
 import android.content.Intent;
-import android.support.v4.app.FragmentActivity;
+import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.text.Html;
 import android.text.Spanned;
 import android.text.method.LinkMovementMethod;
-import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-
-import com.google.android.gms.maps.CameraUpdateFactory;
-import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.MapFragment;
-import com.google.android.gms.maps.OnMapReadyCallback;
-import com.google.android.gms.maps.SupportMapFragment;
-import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.MarkerOptions;
 
 public class DetailsActivity extends AppCompatActivity {
 
@@ -37,7 +25,9 @@ public class DetailsActivity extends AppCompatActivity {
         Toolbar detailsToolbar = findViewById(R.id.toolbar);
         setSupportActionBar(detailsToolbar);
         ActionBar actionBar = getSupportActionBar();
-        actionBar.setDisplayHomeAsUpEnabled(true);
+        if (actionBar != null) {
+            actionBar.setDisplayHomeAsUpEnabled(true);
+        }
 
         Intent placeIntent = getIntent();
         if (placeIntent != null) {
@@ -48,7 +38,7 @@ public class DetailsActivity extends AppCompatActivity {
             currentPlace = new Places(R.string.empty_place, R.string.inner_city,
                     R.string.empty_place_description, R.drawable.augsburg_default, R.drawable.augsburg_default_small, R.string.empty_place_link);
         }
-        Log.i("onCreate", getString(currentPlace.getName()));
+        assert actionBar != null;
         actionBar.setTitle(currentPlace.getName());
         TextView link = findViewById(R.id.link);
         Spanned linkText = Html.fromHtml(getString(currentPlace.getLink()));
@@ -68,7 +58,6 @@ public class DetailsActivity extends AppCompatActivity {
             params.addRule(RelativeLayout.ALIGN_PARENT_RIGHT);
             mapButton.setLayoutParams(params);
         }
-
 
         if (currentPlace.checkForMapLink()) {
             mapButton.setOnClickListener(new View.OnClickListener() {

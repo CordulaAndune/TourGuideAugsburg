@@ -3,13 +3,13 @@ package de.cordulagloge.android.tourguideaugsburg;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.GridView;
-import android.widget.ListView;
 
 import java.util.ArrayList;
 
@@ -26,7 +26,7 @@ public class NightlifeFragment extends Fragment {
 
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_places, container, false);
 
@@ -63,7 +63,9 @@ public class NightlifeFragment extends Fragment {
                 , R.string.murphys_link, new double[]{48.375816, 10.894973}));
         sightsList.add(new Places(R.string.ostwerk, R.string.lechhausen, R.string.ostwerk_description
                 , R.string.ostwerk_link, new double[]{48.367920, 10.933550}));
-        sightsList.add(new Places(R.string.rock_cafe, R.string.oberhausen, R.string.rockfabrik_description
+        sightsList.add(new Places(R.string.rockfabrik, R.string.oberhausen, R.string.rockfabrik_description
+                , R.string.rockfabrik_link, new double[]{48.384483, 10.889629}));
+        sightsList.add(new Places(R.string.rock_cafe, R.string.oberhausen, R.string.rock_cafe_description
                 , R.string.rock_cafe_link, new double[]{48.379311, 10.850061}));
         sightsList.add(new Places(R.string.schwarzes_schaf, R.string.inner_city, R.string.schwarzes_schaf_description
                 , R.string.schwarzes_schaf_link, new double[]{48.370933, 10.893300}));
@@ -85,5 +87,4 @@ public class NightlifeFragment extends Fragment {
 
         return rootView;
     }
-
 }
